@@ -1,6 +1,6 @@
 # 🔲 QR Code Generator
 
-A simple Python GUI application to generate QR codes from text or URLs.
+A Python-based QR Code Generator with a modern Tkinter GUI. Create customized QR codes with different colors, sizes, and error correction levels.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -8,57 +8,50 @@ A simple Python GUI application to generate QR codes from text or URLs.
 
 ## ✨ Features
 
-- 📝 Generate QR codes from any text or URL
-- 🎨 Customize QR code and background colors
-- 📏 Adjustable QR code size (5-15)
-- 🛡️ Multiple error correction levels (L, M, Q, H)
-- 👁️ Live preview before saving
-- 💾 Save as PNG or JPG
-- 🖱️ Scrollable interface
+- 📝 **Text/URL Input** - Encode any text or URL
+- 🎨 **Custom Colors** - Pick QR code and background colors
+- 📏 **Adjustable Size** - Control QR code dimensions (5-15)
+- 🛡️ **Error Correction** - 4 levels (L, M, Q, H) for damage resistance
+- 👁️ **Live Preview** - See QR code before saving
+- 💾 **Export Options** - Save as PNG or JPG
+- 🖱️ **Scrollable UI** - Smooth scrolling interface
 
-## 📦 Installation
+## 🚀 Installation
 
-1. Clone this repository:
-```bash
-git clone https://github.com/ElevateDynasty/QR-Generator.git
-cd QR-Generator
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ElevateDynasty/QR-Code-Generator.git
+   cd QR-Code-Generator
+   ```
 
-2. Create a virtual environment (optional but recommended):
-```bash
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-# or
-source .venv/bin/activate  # Linux/Mac
-```
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. Install dependencies:
-```bash
-pip install qrcode[pil] Pillow
-```
+3. **Run the application**
+   ```bash
+   python qr_generator.py
+   ```
 
-## 🚀 Usage
+## 🖼️ How to Use
 
-Run the application:
-```bash
-python qr_generator.py
-```
-
-### How to use:
-1. Enter your text or URL in the input box
+1. Enter text or URL in the input field
 2. Adjust settings (size, error correction, colors)
 3. Click **"Generate QR Code"**
 4. Preview the QR code
-5. Click **"Save QR Code"** to save as an image
+5. Click **"Save QR Code"** to export
 
-## 📸 Screenshot
+## 📁 Project Structure
 
-The application provides a user-friendly GUI with:
-- Text input area
-- Settings panel for customization
-- Color pickers for QR and background colors
-- Live preview of generated QR code
-- Save functionality
+```
+QR-Code-Generator/
+├── qr_generator.py    # Main application
+├── requirements.txt   # Python dependencies
+├── LICENSE            # MIT License
+├── .gitignore         # Git ignore rules
+└── README.md          # Documentation
+```
 
 ## 🛠️ Requirements
 
@@ -71,10 +64,15 @@ The application provides a user-friendly GUI with:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 👤 Author
+
+**Gaurav Prakash Singh**
+- GitHub: [@ElevateDynasty](https://github.com/ElevateDynasty)
+
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
-Made with ❤️ as a Python Mini Project
+⭐ **Star this repo if you found it useful!**
