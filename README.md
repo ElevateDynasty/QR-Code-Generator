@@ -4,22 +4,24 @@ A simple Python GUI application to generate QR codes from text or URLs.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 
 ## ✨ Features
 
 - 📝 Generate QR codes from any text or URL
 - 🎨 Customize QR code and background colors
-- 📏 Adjustable QR code size
+- 📏 Adjustable QR code size (5-15)
 - 🛡️ Multiple error correction levels (L, M, Q, H)
 - 👁️ Live preview before saving
 - 💾 Save as PNG or JPG
+- 🖱️ Scrollable interface
 
 ## 📦 Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/qr-code-generator.git
-cd qr-code-generator
+git clone https://github.com/ElevateDynasty/QR-Generator.git
+cd QR-Generator
 ```
 
 2. Create a virtual environment (optional but recommended):
